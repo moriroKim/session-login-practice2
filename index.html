@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>🔑로그인 실습</h1>
+    <form>
+      <label for="user_id">아이디</label>
+      <input id="user_id" type="text" placeholder="아이디" />
+      <label for="user_pw">비밀번호</label>
+      <input id="user_pw" type="text" placeholder="비밀번호" />
+      <button id="login_button">로그인</button>
+    </form>
+    <main>
+      <div>유저이름 : <span id="user_name"></span></div>
+      <div>유저정보 : <span id="user_info"></span></div>
+      <button id="logout_button">로그아웃</button>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./login.js"></script>
+  </body>
+</html>
